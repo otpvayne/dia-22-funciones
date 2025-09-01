@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Día 22 - Funciones y Scope</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 2rem; line-height: 1.6; }
+    .btn { display:inline-block; padding:.8rem 1.2rem; border-radius:.7rem; background:#4f46e5; color:#fff; text-decoration:none; border:none; cursor:pointer; }
+    .btn:hover { filter:brightness(.95); transform: translateY(-1px); transition:.2s; }
+    code { background: #f3f4f6; padding:.1rem .4rem; border-radius:.3rem; }
+  </style>
+</head>
+<body>
+  <h1>Día 22 — Funciones y Scope</h1>
+  <p>Abre la <code>Calculadora</code> y prueba las operaciones.</p>
+  <button class="btn" id="btn-calculadora">Abrir calculadora</button>
+
+  <script src="js/dia-22-funciones.js"></script>
+  <script>
+    // Enlaza el botón a la función del JS
+    document.getElementById('btn-calculadora').addEventListener('click', startCalculadora);
+  </script>
+</body>
+</html>
+
